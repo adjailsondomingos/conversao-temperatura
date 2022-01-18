@@ -4,7 +4,7 @@ info:
   version: "1.0.0"
   title: "Conversão de temperatura"
   contact:
-    email: "fabricio@kubedev.io"
+    email: "g@kubedev.io"
 paths:
   /fahrenheit/{valor}/celsius:
     get:
@@ -44,8 +44,7 @@ paths:
           schema:
             type: "array"
             items:
-              $ref: "#/definitions/Temperatura
-              "
+              $ref: "#/definitions/Temperatura"
         "400":
           description: "Bad Input Parameter"
 
