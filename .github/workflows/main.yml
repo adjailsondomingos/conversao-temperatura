@@ -48,4 +48,4 @@ jobs:
         with:
           images: adjaylson/convtemp:${{github.run_number}} 
           manifests: |
-            /Deployment.yaml
+            ./Deployment.yaml
