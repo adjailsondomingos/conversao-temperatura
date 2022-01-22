@@ -48,4 +48,4 @@ jobs:
         with:
           images: adjaylson/convtemp:${{github.run_number}} 
           manifests: |
-            k8s/Deployment.yaml
+            Deployment.yaml
